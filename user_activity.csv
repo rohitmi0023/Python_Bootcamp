@@ -1,0 +1,4 @@
+user_id,event,timestamp
+1,login,2024-01-01 09:00
+1,click,2024-01-01 09:05
+2,login,2024-01-01 09:30
