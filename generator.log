@@ -1,0 +1,8 @@
+2025-08-03 10:00:00,001 - INFO - Starting the application
+2025-08-03 10:00:01,123 - DEBUG - Initializing modules
+2025-08-03 10:00:02,456 - WARNING - Low disk space
+2025-08-03 10:00:03,789 - ERROR - Failed to connect to database
+2025-08-03 10:00:04,234 - INFO - Retrying connection
+2025-08-03 10:00:05,567 - ERROR - Connection timeout
+2025-08-03 10:00:06,890 - DEBUG - Attempting fallback method
+2025-08-03 10:00:07,345 - INFO - Application shut down
