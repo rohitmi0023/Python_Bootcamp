@@ -85,7 +85,9 @@ print(append_val(20)) # prints [10, 20]
 # %%
 # Q3: Build a Data Processor Class
 # Create a class BatchFileProcessor that:
-# Accepts a folder path, Lists all .csv files in that folder, Reads each file into a dictionary of DataFrames, Logs errors using the logging module (file not found, parse errors, etc.)
+# Accepts a folder path, Lists all .csv files in that folder,
+# Reads each file into a dictionary of DataFrames,
+# Logs errors using the logging module (file not found, parse errors, etc.)
 # Bonus: Add a retry mechanism (max 3 attempts) for any failed file read.
 # Time Taken- 40mins
 import os

@@ -1,6 +1,39 @@
 # DAY 1 - GENERATOR PIPELINES: STREAMLINE OR DIE
 # CONCEPTS
 # %%
+
+def gen_fun():
+    x = 'Hello'
+    print('Before 1st Yield')
+    yield x
+    y = ' Sir'
+    print('Before 2nd Yield')
+    yield x+y
+
+gen = gen_fun() 
+# generator object that maintains: a. Execution State b. local variables c. instruction pointer- which line to execute next when next() is called
+
+print(gen)
+print(next(gen))
+print(next(gen))
+print('-'*50)
+print(gen_fun())
+print(next(gen_fun()))
+print(next(gen_fun()))
+
+# %%
+# for loop hidden implementation of generators
+# for item in gen:
+# is equivalent to
+# while True:
+#     try:
+#         item = next(gen)
+#         # loop body
+#     except StopIteration:
+#         break
+
+
+# %%
 lists = [1,2,3,4]
 
 def squared(lists):

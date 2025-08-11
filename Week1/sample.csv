@@ -1,0 +1,12 @@
+name,age,city
+John Doe,30,New York
+Jane Smith,25,Los Angeles
+Mark,27,Boston,ExtraField
+"Susan,32,Chicago
+Chris,not_a_number,Miami
+Anna,28,"San Francisco
+Bob,22
+,35,Dallas
+Megan,twenty-four,Houston
+Phil,"40,Phoenix
+???,???,???

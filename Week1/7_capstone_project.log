@@ -1,0 +1,214 @@
+2025-08-11 01:02:30,537 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:02:30,551 - INFO - Executing function folder_scanner
+2025-08-11 01:02:30,556 - INFO - New XML file detected: ex1.xml
+2025-08-11 01:02:30,556 - INFO - Lists of XML files: ['ex1.xml']
+2025-08-11 01:02:30,557 - INFO - Processing batch of 1 XML files
+2025-08-11 01:02:30,558 - INFO - Processing file: ex1.xml
+2025-08-11 01:02:30,559 - INFO - Executing xml_to_dataframe with retry decorator
+2025-08-11 01:02:30,561 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:02:30,610 - WARNING - Simulated parsing failure for ex1.xml, value 0.3545766176307351
+2025-08-11 01:02:30,612 - ERROR - Error occurred in xml_to_dataframe: Simulated parsing failure for ex1.xml, value 0.3545766176307351
+2025-08-11 01:02:30,615 - WARNING - Retrying xml_to_dataframe in 1 seconds... (attempt 1)
+2025-08-11 01:02:31,617 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:02:31,629 - WARNING - Simulated parsing failure for ex1.xml, value 0.35484174447857864
+2025-08-11 01:02:31,632 - ERROR - Error occurred in xml_to_dataframe: Simulated parsing failure for ex1.xml, value 0.35484174447857864
+2025-08-11 01:02:31,634 - WARNING - Retrying xml_to_dataframe in 2 seconds... (attempt 2)
+2025-08-11 01:02:33,637 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:02:33,639 - WARNING - Simulated parsing failure for ex1.xml, value 0.27009018720178923
+2025-08-11 01:02:33,640 - ERROR - Error occurred in xml_to_dataframe: Simulated parsing failure for ex1.xml, value 0.27009018720178923
+2025-08-11 01:02:33,641 - WARNING - Retrying xml_to_dataframe in 4 seconds... (attempt 3)
+2025-08-11 01:02:37,642 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:02:37,647 - WARNING - Simulated parsing failure for ex1.xml, value 0.3898198149217448
+2025-08-11 01:02:37,649 - ERROR - Error occurred in xml_to_dataframe: Simulated parsing failure for ex1.xml, value 0.3898198149217448
+2025-08-11 01:02:37,650 - WARNING - Retrying xml_to_dataframe in 8 seconds... (attempt 4)
+2025-08-11 01:02:45,655 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:02:45,981 - INFO - Loaded Dataframe head of:    id                  title          author  year      genre
+0   1             The Hobbit  J.R.R. Tolkien  1937    Fantasy
+1   2  To Kill a Mockingbird      Harper Lee  1960    Fiction
+2   3                   1984   George Orwell  1949  Dystopian
+2025-08-11 01:02:45,982 - INFO - Loaded DataFrame from incoming\ex1.xml
+2025-08-11 01:02:45,983 - INFO - Executing function df_to_csv for file ex1.xml
+2025-08-11 01:02:45,986 - INFO - writing df to csv file: incoming\ex1.csv
+2025-08-11 01:02:46,005 - INFO - Successfully wrote DataFrame to incoming\ex1.csv with 3 rows and 5 columns
+2025-08-11 01:02:46,005 - INFO - Successfully processed file: ex1.xml
+2025-08-11 01:02:46,007 - INFO - Executing function move_processed_files
+2025-08-11 01:02:46,010 - INFO - Moved ex1.xml to archive folder
+2025-08-11 01:02:46,011 - INFO - Completed processing of XML files: ['ex1.xml']
+2025-08-11 01:02:46,012 - INFO - Archived processed file ex1.xml to archive
+2025-08-11 01:02:46,013 - INFO - Successfully archived 1 processed files
+2025-08-11 01:02:46,014 - INFO - Completed Context Manager timer, Total Time Taken: 15.477373361587524
+2025-08-11 01:02:56,016 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:02:56,017 - INFO - Executing function folder_scanner
+2025-08-11 01:02:56,018 - INFO - Lists of XML files: []
+2025-08-11 01:02:56,019 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:03:06,020 - INFO - Completed Context Manager timer, Total Time Taken: 10.003987312316895
+2025-08-11 01:03:06,021 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:03:06,021 - INFO - Executing function folder_scanner
+2025-08-11 01:03:06,023 - INFO - Lists of XML files: []
+2025-08-11 01:03:06,024 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:03:16,025 - INFO - Completed Context Manager timer, Total Time Taken: 10.004390478134155
+2025-08-11 01:03:16,029 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:03:16,030 - INFO - Executing function folder_scanner
+2025-08-11 01:03:16,032 - INFO - Lists of XML files: []
+2025-08-11 01:03:16,034 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:03:26,037 - INFO - Completed Context Manager timer, Total Time Taken: 10.007447719573975
+2025-08-11 01:03:26,039 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:03:26,039 - INFO - Executing function folder_scanner
+2025-08-11 01:03:26,041 - INFO - Lists of XML files: []
+2025-08-11 01:03:26,042 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:03:36,046 - INFO - Batch processing interrupted by user.
+2025-08-11 01:03:36,049 - INFO - Capstone processing completed.
+2025-08-11 01:14:25,955 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:14:25,956 - INFO - Executing function folder_scanner
+2025-08-11 01:14:25,958 - INFO - Lists of XML files: []
+2025-08-11 01:14:25,959 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:14:35,961 - INFO - Completed Context Manager timer, Total Time Taken: 10.005683183670044
+2025-08-11 01:14:35,963 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:14:45,965 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:14:45,966 - INFO - Executing function folder_scanner
+2025-08-11 01:14:45,968 - INFO - Lists of XML files: []
+2025-08-11 01:14:45,969 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:14:55,971 - INFO - Batch processing interrupted by user.
+2025-08-11 01:14:55,972 - INFO - Capstone processing completed.
+2025-08-11 01:16:20,507 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:16:20,509 - INFO - Executing function folder_scanner
+2025-08-11 01:16:20,512 - INFO - Lists of XML files: []
+2025-08-11 01:16:20,513 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:16:30,515 - INFO - BATCH PROCESSING INTERRUPTED BY USER.
+2025-08-11 01:16:30,516 - INFO - Capstone processing completed.
+2025-08-11 01:26:33,072 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:26:33,073 - INFO - Executing function folder_scanner
+2025-08-11 01:26:33,074 - INFO - Lists of XML files: []
+2025-08-11 01:26:33,075 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:26:43,076 - INFO - Completed Context Manager timer, Total Time Taken: 10.004503726959229
+2025-08-11 01:26:43,083 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:26:53,086 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:26:53,091 - INFO - Executing function folder_scanner
+2025-08-11 01:26:53,098 - INFO - Lists of XML files: []
+2025-08-11 01:26:53,101 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:27:03,105 - INFO - Completed Context Manager timer, Total Time Taken: 10.018307209014893
+2025-08-11 01:27:03,108 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:27:13,112 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:27:13,114 - INFO - Executing function folder_scanner
+2025-08-11 01:27:13,117 - INFO - Lists of XML files: []
+2025-08-11 01:27:13,119 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:27:23,121 - INFO - Completed Context Manager timer, Total Time Taken: 10.00922679901123
+2025-08-11 01:27:23,123 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:27:33,124 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:27:33,126 - INFO - Executing function folder_scanner
+2025-08-11 01:27:33,130 - INFO - Lists of XML files: []
+2025-08-11 01:27:33,132 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:27:43,134 - INFO - Completed Context Manager timer, Total Time Taken: 10.009614944458008
+2025-08-11 01:27:43,136 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:27:53,140 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:27:53,141 - INFO - Executing function folder_scanner
+2025-08-11 01:27:53,142 - DEBUG - New XML file detected: ex2.xml
+2025-08-11 01:27:53,144 - INFO - Lists of XML files: ['ex2.xml']
+2025-08-11 01:27:53,145 - INFO - Processing batch of 1 XML files
+2025-08-11 01:27:53,145 - INFO - Processing file: ex2.xml
+2025-08-11 01:27:53,146 - DEBUG - Executing xml_to_dataframe with retry decorator
+2025-08-11 01:27:53,147 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:27:53,362 - DEBUG - Loaded Dataframe head of:    id                      title      author  year  price
+0   1         Python Programming    John Doe  2021  29.99
+1   2          XML for Beginners  Jane Smith  2019  19.99
+2   3  Data Science Fundamentals  Alex Brown  2020  35.50
+2025-08-11 01:27:53,363 - INFO - Loaded DataFrame from incoming\ex2.xml
+2025-08-11 01:27:53,364 - DEBUG - Executing function df_to_csv for file ex2.xml
+2025-08-11 01:27:53,364 - DEBUG - writing df to csv file: incoming\ex2.csv
+2025-08-11 01:27:53,371 - INFO - Successfully wrote DataFrame to incoming\ex2.csv with 3 rows and 5 columns
+2025-08-11 01:27:53,372 - INFO - Successfully processed file: ex2.xml
+2025-08-11 01:27:53,374 - DEBUG - Executing function move_processed_files
+2025-08-11 01:27:53,377 - INFO - Moved ex2.xml to archive folder
+2025-08-11 01:27:53,379 - INFO - Completed processing of XML files: ['ex2.xml']
+2025-08-11 01:27:53,380 - INFO - Archived processed file ex2.xml to archive
+2025-08-11 01:27:53,381 - INFO - Successfully archived 1 processed files
+2025-08-11 01:27:53,382 - INFO - Completed Context Manager timer, Total Time Taken: 0.24218249320983887
+2025-08-11 01:27:53,384 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:28:03,385 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:28:03,388 - INFO - Executing function folder_scanner
+2025-08-11 01:28:03,391 - INFO - Lists of XML files: []
+2025-08-11 01:28:03,393 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:28:13,395 - INFO - Completed Context Manager timer, Total Time Taken: 10.009824752807617
+2025-08-11 01:28:13,396 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:28:23,397 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:28:23,399 - INFO - Executing function folder_scanner
+2025-08-11 01:28:23,403 - INFO - Lists of XML files: []
+2025-08-11 01:28:23,405 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:28:33,407 - INFO - Completed Context Manager timer, Total Time Taken: 10.010285377502441
+2025-08-11 01:28:33,408 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:28:43,409 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:28:43,412 - INFO - Executing function folder_scanner
+2025-08-11 01:28:43,414 - INFO - Lists of XML files: []
+2025-08-11 01:28:43,416 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:28:53,419 - INFO - Completed Context Manager timer, Total Time Taken: 10.009526252746582
+2025-08-11 01:28:53,421 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:29:03,424 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:29:03,426 - INFO - Executing function folder_scanner
+2025-08-11 01:29:03,428 - INFO - Lists of XML files: []
+2025-08-11 01:29:03,430 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:29:13,432 - INFO - Completed Context Manager timer, Total Time Taken: 10.007890224456787
+2025-08-11 01:29:13,434 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:29:23,436 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:29:23,439 - INFO - Executing function folder_scanner
+2025-08-11 01:29:23,442 - DEBUG - New XML file detected: ex3.xml
+2025-08-11 01:29:23,443 - DEBUG - New XML file detected: ex4.xml
+2025-08-11 01:29:23,446 - INFO - Lists of XML files: ['ex3.xml', 'ex4.xml']
+2025-08-11 01:29:23,448 - INFO - Processing batch of 2 XML files
+2025-08-11 01:29:23,450 - INFO - Processing file: ex3.xml
+2025-08-11 01:29:23,454 - DEBUG - Executing xml_to_dataframe with retry decorator
+2025-08-11 01:29:23,456 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:29:23,459 - WARNING - Simulated parsing failure for ex3.xml, value 0.0643739338424063
+2025-08-11 01:29:23,461 - ERROR - Error occurred in xml_to_dataframe: Simulated parsing failure for ex3.xml, value 0.0643739338424063
+2025-08-11 01:29:23,463 - WARNING - Retrying xml_to_dataframe in 1 seconds... (attempt 1)
+2025-08-11 01:29:24,465 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:29:24,478 - DEBUG - Loaded Dataframe head of:      id          name   department         contact  salary
+0  1001  Mary Johnson  Engineering  \n               85000
+1  1002     David Lee        Sales  \n               65000
+2  1003   Linda Zhang      Finance  \n               72000
+2025-08-11 01:29:24,480 - INFO - Loaded DataFrame from incoming\ex3.xml
+2025-08-11 01:29:24,482 - DEBUG - Executing function df_to_csv for file ex3.xml
+2025-08-11 01:29:24,486 - DEBUG - writing df to csv file: incoming\ex3.csv
+2025-08-11 01:29:24,491 - INFO - Successfully wrote DataFrame to incoming\ex3.csv with 3 rows and 5 columns
+2025-08-11 01:29:24,493 - INFO - Successfully processed file: ex3.xml
+2025-08-11 01:29:24,495 - INFO - Processing file: ex4.xml
+2025-08-11 01:29:24,497 - DEBUG - Executing xml_to_dataframe with retry decorator
+2025-08-11 01:29:24,498 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:29:24,502 - WARNING - Simulated parsing failure for ex4.xml, value 0.05649058917169303
+2025-08-11 01:29:24,504 - ERROR - Error occurred in xml_to_dataframe: Simulated parsing failure for ex4.xml, value 0.05649058917169303
+2025-08-11 01:29:24,506 - WARNING - Retrying xml_to_dataframe in 1 seconds... (attempt 1)
+2025-08-11 01:29:25,508 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:29:25,509 - WARNING - Simulated parsing failure for ex4.xml, value 0.031859283609573574
+2025-08-11 01:29:25,510 - ERROR - Error occurred in xml_to_dataframe: Simulated parsing failure for ex4.xml, value 0.031859283609573574
+2025-08-11 01:29:25,511 - WARNING - Retrying xml_to_dataframe in 2 seconds... (attempt 2)
+2025-08-11 01:29:27,512 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:29:27,514 - WARNING - Simulated parsing failure for ex4.xml, value 0.1114087773286061
+2025-08-11 01:29:27,514 - ERROR - Error occurred in xml_to_dataframe: Simulated parsing failure for ex4.xml, value 0.1114087773286061
+2025-08-11 01:29:27,515 - WARNING - Retrying xml_to_dataframe in 4 seconds... (attempt 3)
+2025-08-11 01:29:31,516 - INFO - Executing function xml_to_dataframe
+2025-08-11 01:29:31,527 - DEBUG - Loaded Dataframe head of:      id      customer        date           items  total
+0  A101    John Smith  2023-05-19  \n              115.0
+1  A102  Angela White  2023-05-20  \n              120.0
+2025-08-11 01:29:31,529 - INFO - Loaded DataFrame from incoming\ex4.xml
+2025-08-11 01:29:31,530 - DEBUG - Executing function df_to_csv for file ex4.xml
+2025-08-11 01:29:31,533 - DEBUG - writing df to csv file: incoming\ex4.csv
+2025-08-11 01:29:31,541 - INFO - Successfully wrote DataFrame to incoming\ex4.csv with 2 rows and 5 columns
+2025-08-11 01:29:31,544 - INFO - Successfully processed file: ex4.xml
+2025-08-11 01:29:31,548 - DEBUG - Executing function move_processed_files
+2025-08-11 01:29:31,552 - INFO - Moved ex3.xml to archive folder
+2025-08-11 01:29:31,562 - ERROR - Error moving files to archive: [WinError 2] The system cannot find the file specified
+2025-08-11 01:29:31,564 - INFO - Completed processing of XML files: ['ex3.xml', 'ex4.xml']
+2025-08-11 01:29:31,566 - INFO - Archived processed file ex3.xml to archive
+2025-08-11 01:29:31,572 - DEBUG - Executing function move_processed_files
+2025-08-11 01:29:31,576 - INFO - Moved ex3.xml to archive folder
+2025-08-11 01:29:31,580 - ERROR - Error moving files to archive: [WinError 2] The system cannot find the file specified
+2025-08-11 01:29:31,582 - INFO - Completed processing of XML files: ['ex3.xml', 'ex4.xml']
+2025-08-11 01:29:31,585 - INFO - Archived processed file ex4.xml to archive
+2025-08-11 01:29:31,589 - INFO - Successfully archived 2 processed files
+2025-08-11 01:29:31,592 - INFO - Completed Context Manager timer, Total Time Taken: 8.156054735183716
+2025-08-11 01:29:31,594 - INFO - Batch processing completed. Waiting for 10 seconds for next batch processing!!
+2025-08-11 01:29:41,595 - INFO - Starting Context Manager Execution timer
+2025-08-11 01:29:41,597 - INFO - Executing function folder_scanner
+2025-08-11 01:29:41,599 - INFO - Lists of XML files: []
+2025-08-11 01:29:41,599 - INFO - No new XML files found, waiting for next batch...
+2025-08-11 01:29:51,604 - INFO - BATCH PROCESSING INTERRUPTED BY USER.
+2025-08-11 01:29:51,607 - INFO - Capstone processing completed.

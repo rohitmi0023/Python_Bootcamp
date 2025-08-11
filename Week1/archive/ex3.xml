@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <employee id="1001">
+        <name>Mary Johnson</name>
+        <department>Engineering</department>
+        <contact>
+            <email>mary.johnson@example.com</email>
+            <phone>555-1234</phone>
+        </contact>
+        <salary>85000</salary>
+    </employee>
+    <employee id="1002">
+        <name>David Lee</name>
+        <department>Sales</department>
+        <contact>
+            <email>david.lee@example.com</email>
+            <phone>555-5678</phone>
+        </contact>
+        <salary>65000</salary>
+    </employee>
+    <employee id="1003">
+        <name>Linda Zhang</name>
+        <department>Finance</department>
+        <contact>
+            <email>linda.zhang@example.com</email>
+            <phone>555-9999</phone>
+        </contact>
+        <salary>72000</salary>
+    </employee>
+</company>
