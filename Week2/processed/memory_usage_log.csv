@@ -1,0 +1,6 @@
+step,memory_mb,timestamp
+JSON ingestion,99.2,2025-08-15 22:04:02.473319
+Parquet ingestion,105.0,2025-08-15 22:04:02.544649
+CSV ingestion,105.02,2025-08-15 22:04:02.615619
+Data joins,107.15,2025-08-15 22:04:02.635172
+Polars aggregations,117.51,2025-08-15 22:04:02.683037
