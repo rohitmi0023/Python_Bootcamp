@@ -5,13 +5,13 @@ from pathlib import Path
 path = Path('mock_sales_data.csv')
 path2 = Path('product_details.csv')
 
-def read_data(path: Path) -> pd.DataFrame:
+def read_data(path: Path, path2: Path) -> pd.DataFrame:
     try:
         df = pd.read_csv(path)
         print(f'Successfully parsed the csv file {path} with {df.shape[0]} rows and {df.shape[1]} columns')
         df2 = pd.read_csv(path2)
         print(f'Successfully parsed the csv file {path2} with {df2.shape[0]} rows and {df2.shape[1]} columns')
-        return df
+        return df, df2
     except FileNotFoundError as e:
         print(f'File not found. Please ensure the file exists in the specified path: {path}')
         return None
@@ -19,7 +19,7 @@ def read_data(path: Path) -> pd.DataFrame:
         print(f'An error occurred while reading the file: {e}')
         return None
 
-df = read_data(path)
+df, df2 = read_data(path, path2)
 
 # Load and Inspect Data
 if df is not None:
@@ -51,7 +51,31 @@ if df is not None:
         df_merged.groupby(['Manufacturer'])['Sales'].sum()
 
 # Handling missing data
-    
+    df.isnull().sum()
+    df.dropna(subset=['Price'])
+    df['Price'].fillna(df['Price'].mean())
+
+# Creating new columns
+    df['Sales_Tax'] = (0.1 * df['Sales']).round(2)
+    df['Final_Price'] = (df['Sales'] + df['Sales_Tax']).round(2)
+
+# pivoting table
+    pivot_table = pd.pivot_table(df, values='Sales', index=['Region', 'Category'], columns='Month', aggfunc='sum', fill_value=0)
+
+# Advanced filtering
+    final_price = 1000
+    df.query('Sales > 500 and Category == "Electronics" and Final_Price < @final_price')
+    df.to_csv('filtered_sales_data.csv')
+
+# Memory optimization
+    df.info(memory_usage='deep')
+    df['Region'] = df['Region'].astype('category')
+    df['Category'] = df['Category'].astype('category')
+
+    # list all dtypes available in any DataFrame
+
+# exporting data
+    df.to_csv('filtered_sales_data.csv')
 
 
 

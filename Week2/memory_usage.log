@@ -1,0 +1,330 @@
+2025-08-14 19:47:13,668 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-14 19:47:33,512 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-14 19:47:33,630 - INFO - Finished loading mock_sales_data.csv data of shape (50000, 8)
+2025-08-14 19:55:03,040 - DEBUG - Started loading 1024 chunks of mock_sales_data.csv data
+2025-08-14 19:55:03,704 - INFO - Finished loading mock_sales_data.csv data of shape (50000, 8)
+2025-08-14 20:18:31,873 - DEBUG - Started loading 1024 chunks of mock_sales_data.csv data
+2025-08-14 20:18:32,074 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,088 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,094 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,099 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,109 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,115 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,121 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,127 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,132 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,139 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,145 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,152 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,158 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,167 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,172 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,178 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,183 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,191 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,199 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,207 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,213 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,217 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,225 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,230 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,235 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,240 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,245 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,253 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,259 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,265 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,270 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,277 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,295 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,302 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,307 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,313 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,320 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,326 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,331 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,335 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,343 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,348 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,354 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,363 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,367 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,374 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,380 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,385 - DEBUG - Loaded chunk of shape (1024, 8)
+2025-08-14 20:18:32,391 - DEBUG - Loaded chunk of shape (848, 8)
+2025-08-14 20:18:32,425 - INFO - Finished loading mock_sales_data.csv into df        OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0            1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1            2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2            3  2023-12-14  North         Food        Milk   791.39         3   
+3            4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4            5  2023-12-11   East     Clothing       Shirt   108.58         1   
+...        ...         ...    ...          ...         ...      ...       ...   
+49995    49996  2023-03-28   West     Clothing      Jacket  1242.90         4   
+49996    49997  2023-04-16   West         Food     Chicken   213.34         1   
+49997    49998  2023-08-03   East     Clothing      Jacket   273.98         2   
+49998    49999  2023-04-14  South         Food        Milk  1601.20         5   
+49999    50000  2023-01-04   East    Furniture        Sofa   435.25         1   
+
+         Sales  
+0      7895.68  
+1      4137.78  
+2      2374.17  
+3      1336.20  
+4       108.58  
+...        ...  
+49995  4971.60  
+49996   213.34  
+49997   547.96  
+49998  8006.00  
+49999   435.25  
+
+[50000 rows x 8 columns]
+2025-08-14 20:20:01,381 - DEBUG - Started loading 1024 chunks of mock_sales_data.csv data
+2025-08-14 20:20:01,390 - DEBUG - Loaded chunk 0 of shape (1024, 8)
+2025-08-14 20:20:01,396 - DEBUG - Loaded chunk 1 of shape (1024, 8)
+2025-08-14 20:20:01,404 - DEBUG - Loaded chunk 2 of shape (1024, 8)
+2025-08-14 20:20:01,412 - DEBUG - Loaded chunk 3 of shape (1024, 8)
+2025-08-14 20:20:01,423 - DEBUG - Loaded chunk 4 of shape (1024, 8)
+2025-08-14 20:20:01,430 - DEBUG - Loaded chunk 5 of shape (1024, 8)
+2025-08-14 20:20:01,437 - DEBUG - Loaded chunk 6 of shape (1024, 8)
+2025-08-14 20:20:01,444 - DEBUG - Loaded chunk 7 of shape (1024, 8)
+2025-08-14 20:20:01,449 - DEBUG - Loaded chunk 8 of shape (1024, 8)
+2025-08-14 20:20:01,456 - DEBUG - Loaded chunk 9 of shape (1024, 8)
+2025-08-14 20:20:01,461 - DEBUG - Loaded chunk 10 of shape (1024, 8)
+2025-08-14 20:20:01,466 - DEBUG - Loaded chunk 11 of shape (1024, 8)
+2025-08-14 20:20:01,471 - DEBUG - Loaded chunk 12 of shape (1024, 8)
+2025-08-14 20:20:01,477 - DEBUG - Loaded chunk 13 of shape (1024, 8)
+2025-08-14 20:20:01,483 - DEBUG - Loaded chunk 14 of shape (1024, 8)
+2025-08-14 20:20:01,488 - DEBUG - Loaded chunk 15 of shape (1024, 8)
+2025-08-14 20:20:01,494 - DEBUG - Loaded chunk 16 of shape (1024, 8)
+2025-08-14 20:20:01,499 - DEBUG - Loaded chunk 17 of shape (1024, 8)
+2025-08-14 20:20:01,505 - DEBUG - Loaded chunk 18 of shape (1024, 8)
+2025-08-14 20:20:01,510 - DEBUG - Loaded chunk 19 of shape (1024, 8)
+2025-08-14 20:20:01,516 - DEBUG - Loaded chunk 20 of shape (1024, 8)
+2025-08-14 20:20:01,521 - DEBUG - Loaded chunk 21 of shape (1024, 8)
+2025-08-14 20:20:01,527 - DEBUG - Loaded chunk 22 of shape (1024, 8)
+2025-08-14 20:20:01,533 - DEBUG - Loaded chunk 23 of shape (1024, 8)
+2025-08-14 20:20:01,537 - DEBUG - Loaded chunk 24 of shape (1024, 8)
+2025-08-14 20:20:01,541 - DEBUG - Loaded chunk 25 of shape (1024, 8)
+2025-08-14 20:20:01,545 - DEBUG - Loaded chunk 26 of shape (1024, 8)
+2025-08-14 20:20:01,552 - DEBUG - Loaded chunk 27 of shape (1024, 8)
+2025-08-14 20:20:01,557 - DEBUG - Loaded chunk 28 of shape (1024, 8)
+2025-08-14 20:20:01,561 - DEBUG - Loaded chunk 29 of shape (1024, 8)
+2025-08-14 20:20:01,565 - DEBUG - Loaded chunk 30 of shape (1024, 8)
+2025-08-14 20:20:01,572 - DEBUG - Loaded chunk 31 of shape (1024, 8)
+2025-08-14 20:20:01,577 - DEBUG - Loaded chunk 32 of shape (1024, 8)
+2025-08-14 20:20:01,581 - DEBUG - Loaded chunk 33 of shape (1024, 8)
+2025-08-14 20:20:01,585 - DEBUG - Loaded chunk 34 of shape (1024, 8)
+2025-08-14 20:20:01,589 - DEBUG - Loaded chunk 35 of shape (1024, 8)
+2025-08-14 20:20:01,596 - DEBUG - Loaded chunk 36 of shape (1024, 8)
+2025-08-14 20:20:01,601 - DEBUG - Loaded chunk 37 of shape (1024, 8)
+2025-08-14 20:20:01,606 - DEBUG - Loaded chunk 38 of shape (1024, 8)
+2025-08-14 20:20:01,610 - DEBUG - Loaded chunk 39 of shape (1024, 8)
+2025-08-14 20:20:01,619 - DEBUG - Loaded chunk 40 of shape (1024, 8)
+2025-08-14 20:20:01,624 - DEBUG - Loaded chunk 41 of shape (1024, 8)
+2025-08-14 20:20:01,629 - DEBUG - Loaded chunk 42 of shape (1024, 8)
+2025-08-14 20:20:01,634 - DEBUG - Loaded chunk 43 of shape (1024, 8)
+2025-08-14 20:20:01,639 - DEBUG - Loaded chunk 44 of shape (1024, 8)
+2025-08-14 20:20:01,644 - DEBUG - Loaded chunk 45 of shape (1024, 8)
+2025-08-14 20:20:01,650 - DEBUG - Loaded chunk 46 of shape (1024, 8)
+2025-08-14 20:20:01,655 - DEBUG - Loaded chunk 47 of shape (1024, 8)
+2025-08-14 20:20:01,659 - DEBUG - Loaded chunk 48 of shape (848, 8)
+2025-08-14 20:20:01,669 - INFO - Finished loading mock_sales_data.csv into df        OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0            1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1            2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2            3  2023-12-14  North         Food        Milk   791.39         3   
+3            4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4            5  2023-12-11   East     Clothing       Shirt   108.58         1   
+...        ...         ...    ...          ...         ...      ...       ...   
+49995    49996  2023-03-28   West     Clothing      Jacket  1242.90         4   
+49996    49997  2023-04-16   West         Food     Chicken   213.34         1   
+49997    49998  2023-08-03   East     Clothing      Jacket   273.98         2   
+49998    49999  2023-04-14  South         Food        Milk  1601.20         5   
+49999    50000  2023-01-04   East    Furniture        Sofa   435.25         1   
+
+         Sales  
+0      7895.68  
+1      4137.78  
+2      2374.17  
+3      1336.20  
+4       108.58  
+...        ...  
+49995  4971.60  
+49996   213.34  
+49997   547.96  
+49998  8006.00  
+49999   435.25  
+
+[50000 rows x 8 columns]
+2025-08-14 20:21:05,207 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-14 20:21:05,225 - DEBUG - Loaded chunk 0 of shape (10000, 8)
+2025-08-14 20:21:05,245 - DEBUG - Loaded chunk 1 of shape (10000, 8)
+2025-08-14 20:21:05,266 - DEBUG - Loaded chunk 2 of shape (10000, 8)
+2025-08-14 20:21:05,284 - DEBUG - Loaded chunk 3 of shape (10000, 8)
+2025-08-14 20:21:05,300 - DEBUG - Loaded chunk 4 of shape (10000, 8)
+2025-08-14 20:21:05,321 - INFO - Finished loading mock_sales_data.csv into df head    OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0        1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1        2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2        3  2023-12-14  North         Food        Milk   791.39         3   
+3        4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4        5  2023-12-11   East     Clothing       Shirt   108.58         1   
+
+     Sales  
+0  7895.68  
+1  4137.78  
+2  2374.17  
+3  1336.20  
+4   108.58  
+2025-08-15 00:04:48,116 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-15 00:04:48,186 - DEBUG - Loaded chunk 0 of shape (10000, 8)
+2025-08-15 00:04:48,207 - DEBUG - Loaded chunk 1 of shape (10000, 8)
+2025-08-15 00:04:48,224 - DEBUG - Loaded chunk 2 of shape (10000, 8)
+2025-08-15 00:04:48,241 - DEBUG - Loaded chunk 3 of shape (10000, 8)
+2025-08-15 00:04:48,256 - DEBUG - Loaded chunk 4 of shape (10000, 8)
+2025-08-15 00:04:48,282 - INFO - Finished loading mock_sales_data.csv into df head    OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0        1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1        2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2        3  2023-12-14  North         Food        Milk   791.39         3   
+3        4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4        5  2023-12-11   East     Clothing       Shirt   108.58         1   
+
+     Sales  
+0  7895.68  
+1  4137.78  
+2  2374.17  
+3  1336.20  
+4   108.58  
+2025-08-15 00:38:35,308 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-15 00:38:35,432 - DEBUG - Loaded chunk 0 of shape (10000, 8)
+2025-08-15 00:38:35,458 - DEBUG - Loaded chunk 1 of shape (10000, 8)
+2025-08-15 00:38:35,483 - DEBUG - Loaded chunk 2 of shape (10000, 8)
+2025-08-15 00:38:35,500 - DEBUG - Loaded chunk 3 of shape (10000, 8)
+2025-08-15 00:38:35,522 - DEBUG - Loaded chunk 4 of shape (10000, 8)
+2025-08-15 00:38:35,552 - INFO - Finished loading mock_sales_data.csv into df head    OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0        1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1        2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2        3  2023-12-14  North         Food        Milk   791.39         3   
+3        4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4        5  2023-12-11   East     Clothing       Shirt   108.58         1   
+
+     Sales  
+0  7895.68  
+1  4137.78  
+2  2374.17  
+3  1336.20  
+4   108.58  
+2025-08-15 01:34:04,224 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-15 01:34:04,301 - DEBUG - Loaded chunk 0 of shape (10000, 8)
+2025-08-15 01:34:04,317 - DEBUG - Loaded chunk 1 of shape (10000, 8)
+2025-08-15 01:34:04,332 - DEBUG - Loaded chunk 2 of shape (10000, 8)
+2025-08-15 01:34:04,349 - DEBUG - Loaded chunk 3 of shape (10000, 8)
+2025-08-15 01:34:04,364 - DEBUG - Loaded chunk 4 of shape (10000, 8)
+2025-08-15 01:34:04,391 - INFO - Finished loading mock_sales_data.csv into df head    OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0        1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1        2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2        3  2023-12-14  North         Food        Milk   791.39         3   
+3        4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4        5  2023-12-11   East     Clothing       Shirt   108.58         1   
+
+     Sales  
+0  7895.68  
+1  4137.78  
+2  2374.17  
+3  1336.20  
+4   108.58  
+2025-08-15 01:34:41,666 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-15 01:34:41,685 - DEBUG - Loaded chunk 0 of shape (10000, 8)
+2025-08-15 01:34:41,704 - DEBUG - Loaded chunk 1 of shape (10000, 8)
+2025-08-15 01:34:41,723 - DEBUG - Loaded chunk 2 of shape (10000, 8)
+2025-08-15 01:34:41,738 - DEBUG - Loaded chunk 3 of shape (10000, 8)
+2025-08-15 01:34:41,753 - DEBUG - Loaded chunk 4 of shape (10000, 8)
+2025-08-15 01:34:41,758 - INFO - Finished loading mock_sales_data.csv into df head    OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0        1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1        2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2        3  2023-12-14  North         Food        Milk   791.39         3   
+3        4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4        5  2023-12-11   East     Clothing       Shirt   108.58         1   
+
+     Sales  
+0  7895.68  
+1  4137.78  
+2  2374.17  
+3  1336.20  
+4   108.58  
+2025-08-15 12:10:59,314 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-15 12:10:59,463 - DEBUG - Loaded chunk 0 of shape (10000, 8)
+2025-08-15 12:10:59,507 - DEBUG - Loaded chunk 1 of shape (10000, 8)
+2025-08-15 12:10:59,531 - DEBUG - Loaded chunk 2 of shape (10000, 8)
+2025-08-15 12:10:59,558 - DEBUG - Loaded chunk 3 of shape (10000, 8)
+2025-08-15 12:10:59,580 - DEBUG - Loaded chunk 4 of shape (10000, 8)
+2025-08-15 12:10:59,594 - INFO - Finished loading mock_sales_data.csv into df head    OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0        1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1        2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2        3  2023-12-14  North         Food        Milk   791.39         3   
+3        4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4        5  2023-12-11   East     Clothing       Shirt   108.58         1   
+
+     Sales  
+0  7895.68  
+1  4137.78  
+2  2374.17  
+3  1336.20  
+4   108.58  
+2025-08-15 12:11:19,056 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-15 12:11:19,097 - DEBUG - Loaded chunk 0 of shape (10000, 8)
+2025-08-15 12:11:19,143 - DEBUG - Loaded chunk 1 of shape (10000, 8)
+2025-08-15 12:11:19,184 - DEBUG - Loaded chunk 2 of shape (10000, 8)
+2025-08-15 12:11:19,218 - DEBUG - Loaded chunk 3 of shape (10000, 8)
+2025-08-15 12:11:19,251 - DEBUG - Loaded chunk 4 of shape (10000, 8)
+2025-08-15 12:11:19,263 - INFO - Finished loading mock_sales_data.csv into df head    OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0        1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1        2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2        3  2023-12-14  North         Food        Milk   791.39         3   
+3        4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4        5  2023-12-11   East     Clothing       Shirt   108.58         1   
+
+     Sales  
+0  7895.68  
+1  4137.78  
+2  2374.17  
+3  1336.20  
+4   108.58  
+2025-08-15 12:11:32,847 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-15 12:11:32,931 - DEBUG - Loaded chunk 0 of shape (10000, 8)
+2025-08-15 12:11:33,009 - DEBUG - Loaded chunk 1 of shape (10000, 8)
+2025-08-15 12:11:33,047 - DEBUG - Loaded chunk 2 of shape (10000, 8)
+2025-08-15 12:11:33,072 - DEBUG - Loaded chunk 3 of shape (10000, 8)
+2025-08-15 12:11:33,096 - DEBUG - Loaded chunk 4 of shape (10000, 8)
+2025-08-15 12:11:33,105 - INFO - Finished loading mock_sales_data.csv into df head    OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0        1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1        2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2        3  2023-12-14  North         Food        Milk   791.39         3   
+3        4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4        5  2023-12-11   East     Clothing       Shirt   108.58         1   
+
+     Sales  
+0  7895.68  
+1  4137.78  
+2  2374.17  
+3  1336.20  
+4   108.58  
+2025-08-15 12:14:14,289 - DEBUG - Started loading 10000 chunks of mock_sales_data.csv data
+2025-08-15 12:14:14,323 - DEBUG - Loaded chunk 0 of shape (10000, 8)
+2025-08-15 12:14:14,362 - DEBUG - Loaded chunk 1 of shape (10000, 8)
+2025-08-15 12:14:14,395 - DEBUG - Loaded chunk 2 of shape (10000, 8)
+2025-08-15 12:14:14,426 - DEBUG - Loaded chunk 3 of shape (10000, 8)
+2025-08-15 12:14:14,452 - DEBUG - Loaded chunk 4 of shape (10000, 8)
+2025-08-15 12:14:14,461 - INFO - Finished loading mock_sales_data.csv into df head    OrderID   OrderDate Region     Category     Product    Price  Quantity  \
+0        1  2023-10-02   East    Furniture       Chair  1973.92         4   
+1        2  2023-02-05   West    Furniture         Bed  1379.26         3   
+2        3  2023-12-14  North         Food        Milk   791.39         3   
+3        4  2023-09-14   East  Electronics  Smartphone  1336.20         1   
+4        5  2023-12-11   East     Clothing       Shirt   108.58         1   
+
+     Sales  
+0  7895.68  
+1  4137.78  
+2  2374.17  
+3  1336.20  
+4   108.58  
